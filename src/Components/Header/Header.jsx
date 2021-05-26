@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import "./style.css";
+import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import banner from "./images/photo-banner.jpg";
+import "./style.css";
 
 export default function Header({ totalProduct, Touch }) {
   return (

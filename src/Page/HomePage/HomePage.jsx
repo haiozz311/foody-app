@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Header from "../../Components/Header/Header";
-import "./style.css";
 import CardList from "../../Components/Cart/CartList";
 import CartModal from "../../Components/Cart/CartModal";
+import Header from "../../Components/Header/Header";
 import data from "../../Data/Data.js";
+import "./style.css";
 
 export default function HomePage() {
   const [Cart, setCart] = useState([]);
